@@ -1,4 +1,5 @@
-// Remover elementos de um array e, caso necessario, inclui novos elementos no lugar e retorna os itens removidos.
+// Remover elementos de um array e, caso necessario, inclui novos elementos no lugar e 
+// retorna os itens removidos.
 
 // Sintaxe
 Array.splice(start, deleteCount, items);

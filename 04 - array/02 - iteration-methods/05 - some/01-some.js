@@ -4,7 +4,7 @@
 // Esse método retorna true caso algum dos elementos do array atendam a condição.
 
 // Sintaxe
-// Array.some(callbackfn: (value, index, array) => {})
+rray.some((value, index, array) => {})
 
 // @param callbackfn: Função para verificar uma determinada condição
 //      value: Valor atual
