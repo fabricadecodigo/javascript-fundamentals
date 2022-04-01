@@ -7,12 +7,13 @@ A função vai percorrer os elementos da esquerda para a direita
 Caso queira percorrer da direita para esquerda, basta usar o método reduceRight
 
 ## Sintaxe
+
 ```
 Array.reduce((previousValue, currentValue, currentIndex, array) => {});
+Array.reduceRight((previousValue, currentValue, currentIndex, array) => {});
 ```
 
-- **callbackfn**: Função que manipula os itens do array
-    - **previousValue**: Valor percorrido anteriormente
-    - **currentValue**: Valor atual
-    - **currentIndex**: Índice do valor atual
-    - **array**: Array que está sendo manipulado
+**previousValue**: Valor percorrido anteriormente
+**currentValue**: Valor atual
+**currentIndex**: Índice do valor atual
+**array**: Array que está sendo manipulado
