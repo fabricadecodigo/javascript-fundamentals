@@ -1,9 +1,9 @@
-console.WriteLine(true && true); // True
-console.WriteLine(true && false); // False
-console.WriteLine(false && false); // False
-console.WriteLine(false && true); // False
+console.log(true && true); // True
+console.log(true && false); // False
+console.log(false && false); // False
+console.log(false && true); // False
 
-console.WriteLine(true || true); // True
-console.WriteLine(true || false); // True
-console.WriteLine(false || false); // False
-console.WriteLine(false || true); // True
+console.log(true || true); // True
+console.log(true || false); // True
+console.log(false || false); // False
+console.log(false || true); // True
