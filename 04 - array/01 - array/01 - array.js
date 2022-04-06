@@ -23,10 +23,6 @@ console.log(frutas);
 frutas.shift();
 console.log(frutas);
 
-// removendo um item de qualquer posição do array
-frutas = frutas.slice(frutas.indexOf("Maçã", 1));
-console.log(frutas);
-
 // iterando os valores
 frutas.forEach(function (value, index, array) {
     console.log(value);
@@ -34,3 +30,8 @@ frutas.forEach(function (value, index, array) {
 });
 
 
+// Matriz
+const matriz = [
+    [0, 1, 2], 
+    [3, 4, 5]
+]
